@@ -1,32 +1,59 @@
 <template>
-    <div class="container text-center">
-        <div class="row">
-            <hr>
-            <div class="col-4">
-                <h2>Lorem ipsum dolor sit.</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat, voluptas repellendus provident
-                    perspiciatis beatae dolore commodi quo consequatur ex? Recusandae sit repellendus mollitia! Sed
-                    quos, deleniti qui ut ea aliquam.</p>
-            </div>
-            <div class="col-4">
-                <h2>¿Quieres recibir notificaciones o noticias?</h2>
-                <label for="name">Nombre</label>
-                <input type="email" id="email" placeholder="Coloca tu correo completo" required>
-            </div>
-            <div class="col-4">
-                <p>Visita nuestras redes sociales</p>
-                <ul>
-                    <li><a href="#">Facebook</a></li>
-                    <li><a href="#">Instagram</a></li>
-                    <li><a href="#">Twitter</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</template>
-
-<script>
-export default {
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2024 Mi Sitio Web. Todos los derechos reservados.</p>
+        <nav>
+          <ul>
+            <li><a href="/about">Sobre nosotros</a></li>
+            <li><a href="/contact">Contacto</a></li>
+            <li><a href="/privacy">Política de privacidad</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </template>
+  
+  <script>
+  export default {
     name: 'MirandaFooter'
-}
-</script>
+  }
+  </script>
+  
+  <style scoped>
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  
+  .footer nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  .footer nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer nav ul li a:hover {
+    text-decoration: underline;
+  }
+  </style>
+  

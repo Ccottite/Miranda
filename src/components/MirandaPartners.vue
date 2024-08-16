@@ -1,7 +1,7 @@
 <template>
     <div class="container-fluid py-5 bg-dark text-white">
         <div class="row align-items-center mb-5">
-            <div class="col-lg-6 text-center text-lg-left">
+            <div class="col-lg-12 text-center text-lg-left">
                 <h2 class="font-weight-bold">Marcas que confian en nosotros</h2>
                 <div id="brandCarousel" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
@@ -25,13 +25,6 @@
                         <span class="sr-only">Siguiente</span>
                     </a>
                 </div>
-            </div>
-            <div class="col-lg-6 text-center text-lg-left">
-                <h2 class="font-weight-bold">Te invitamos a acudir a nuestras sucursales</h2>
-                <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, distinctio deleniti
-                    non adipisci qui, cumque pariatur, eveniet corporis labore autem cupiditate. Suscipit iste corrupti
-                    sit cum dolor, consequuntur quidem excepturi?</p>
-                <a href="#" class="btn btn-outline-light btn-lg mt-3">Contactate con nosotros</a>
             </div>
         </div>
     </div>

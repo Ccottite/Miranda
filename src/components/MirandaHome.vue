@@ -60,16 +60,16 @@ h1 {
 }
 
 .text-animated span::before {
-    content: 'Familia';
+    content: '';
     color: #fa0404;
     animation: words 60s infinite;
 }
 
 .text-animated span::after {
-    content: '';
+    content: 'Familia';
     background-color: #181818;
     position: absolute;
-    width: calc(100% + 14px);
+    width: calc(100% + 10px);
     height: 100%;
     border-left: 2px solid #fa0404;
     right: -10px;
@@ -85,7 +85,7 @@ h1 {
 @keyframes words {
 
     0%,
-    20% {
+    25% {
         content: 'Familia';
     }
 
@@ -96,17 +96,17 @@ h1 {
 
     41%,
     60% {
-        content: '100% Mexicanos';
+        content: 'Coloridos';
     }
 
     61%,
     80% {
-        content: 'Coloridos';
+        content: 'Autenticos';
     }
 
     81%,
     100% {
-        content: 'Autenticos';
+        content: '100% Mexicanos';
     }
 }
 
@@ -134,7 +134,7 @@ h1 {
     65%,
     80%,
     85% {
-        width: calc(100% +14px);
+        width: calc(100% +8px);
     }
 }
 
