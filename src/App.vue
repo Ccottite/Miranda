@@ -4,7 +4,10 @@
     <Home />
     <Partners />
     <Products />
-    <MNew/>
+    <MNew />
+    <Contact />
+    <Footer />
+
   </div>
 </template>
 
@@ -14,6 +17,8 @@ import Home from './components/MirandaHome.vue';
 import Partners from './components/MirandaPartners';
 import Products from './components/MirandaProducts';
 import MNew from './components/MirandaNew';
+import Contact from './components/MirandaContact';
+import Footer from './components/MirandaFooter.vue';
 
 export default {
   name: 'App',
@@ -22,11 +27,11 @@ export default {
     Home,
     Partners,
     Products,
-    MNew
+    MNew,
+    Contact,
+    Footer
   }
 }
 </script>
 
-<style>
-/* Estilos globales */
-</style>
+<style></style>

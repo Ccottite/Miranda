@@ -11,31 +11,28 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="MirandaHome.vue">Inicio</a>
+                    </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
                             Nuestros Productos
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Hilos</a></li>
-                            <li><a class="dropdown-item" href="#">Cierres</a></li>
-                            <li><a class="dropdown-item" href="#">Refacciones</a></li>
+                            <li><a class="dropdown-item" href="MirandaProducts.vue">Hilos</a></li>
+                            <li><a class="dropdown-item" href="MirandaProducts.vue">Cierres</a></li>
+                            <li><a class="dropdown-item" href="MirandaProducts.vue">Refacciones</a></li>
+                            <li><a class="dropdown-item" href="MirandaProducts.vue">Articulos Nuevos</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Artículos Nuevos</a>
+                        <a class="nav-link" href="MirandaUbi.vue">Ubicaciones</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Ubicaciones</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contáctanos</a>
+                        <a class="nav-link" href="MirandaContact.vue">Contáctanos</a>
                     </li>
                 </ul>
-                <div class="d-flex align-items-center">
-                    <button class="btn btn-outline-light me-2" type="button">Sign up</button>
-                    <button class="btn btn-success" type="button">Buy now!</button>
-                </div>
             </div>
         </div>
     </nav>
